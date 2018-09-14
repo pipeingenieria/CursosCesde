@@ -72,11 +72,26 @@ and open the template in the editor.
                         
                         foreach($usuario AS $user){
                             echo $user."<br>";
+                            
                         }
                     ?>
                 </h3>
             </pre>
         </h1>
+        <ul>
+           <?php
+           //Utilizando for each para mostrar indice y valor del arreglo
+               foreach($usuario AS $key => $user){
+                    echo "<li>".$key."".$user."</li>";
+
+                }
+                
+                for($i=0;$i<4;$i++)
+                {
+                    echo $i;
+                }
+            ?> 
+        </ul>
         </p>
     </body>
 </html>
