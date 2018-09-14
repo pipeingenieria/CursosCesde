@@ -20,34 +20,63 @@ and open the template in the editor.
             ?>
         </h1>
         
-        <p>
-            <h2>
-                <?php
-                    // ----- Estructuras condicionales ----
-                   if($PrimeraVariable<1)
-                    {
-                       echo 'Soy Menor';
-                    }
-                    else
-                    {
-                        echo 'Soy Mayor';
-                    }
-                    
-                    switch ($lenguaje)
-                    {
-                        case "PHP":
-                            echo 'PHP';
-                            break;
-                        case "JavaScript":
-                            echo 'JavaScript';
-                            break;
-                        case "HTML5":
-                            echo 'HTML5';
-                            break;
-                    }
-                    //----- Arreglos ------
-                ?>
-            </h2>
+        <h2>
+            <?php
+                // ----- Estructuras condicionales ----
+               if($PrimeraVariable<1)
+                {
+                   echo 'Soy Menor'."<br>";
+                }
+                else
+                {
+                    echo 'Soy Mayor'."<br>";
+                }
+
+                switch ($lenguaje)
+                {
+                    case "PHP":
+                        echo 'PHP'."<br>";
+                        break;
+                    case "JavaScript":
+                        echo 'JavaScript'."<br>";
+                        break;
+                    case "HTML5":
+                        echo 'HTML5'."<br>";
+                        break;
+                }
+                //----- Arreglos ------
+                $arreglo =[2,'Hola',5];
+                echo $arreglo[1]."<br>"; 
+
+                $variable=array("css","Jquery","PHP","MySql");
+                echo $arreglo[2]."<br>"; 
+            ?>
+        </h2>
+        <h1>
+            <pre>
+                <h3>
+                    <?php
+                        print_r($arreglo);
+                        var_dump($arreglo);
+                        $dato1=  array_pop($arreglo);
+                                
+                        //ARREGLOS ASOCIATIVOS
+                        $usuario=array('nombre'=>"Felipe",'Apellidos'=>"Hernandez",'cedula'=>123456);
+                        echo $usuario."<h1>".$usuario['nombre']."</h1>";
+                        echo 'ppppppppppppp'."<br>";
+                        
+                        $existe=in_array('', array_values($usuario));
+                        var_dump ("Existe".$existe);
+                        
+                        //RECORRIENDO ARREGLOS --- ForEach
+                        
+                        foreach($usuario AS $user){
+                            echo $user."<br>";
+                        }
+                    ?>
+                </h3>
+            </pre>
+        </h1>
         </p>
     </body>
 </html>
