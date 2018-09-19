@@ -38,6 +38,25 @@ and open the template in the editor.
         $nombres=['Juan','Felipe','Andres'];
         usuario($nombres,123456);
         
+        echo '<br><br>';
+        //--- Funcion con Valores de retorno ----
+        function suma($num1,$num2){
+            
+            $sumar=$num1+$num2;
+            return $sumar;
+        }
+        $result=suma(2,4);
+        echo 'suma: '.$result.'<br>';
+        
+        //--- Guardando Datos en un arreglo mediante funcion
+        $agenda=array();
+        function agendar($nombre,$tel){
+        global $agenda;
+        $agenda[]=$nombre;
+        $agenda[]=$tel;
+        }
+        agendar('Felipe',123456);
+        print_r($agenda);
         ?>
     </body>
 </html>
