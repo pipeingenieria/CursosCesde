@@ -1,36 +1,7 @@
-label{
-	/*Color para los labels
-	*/
-	color:rgb(225, 59, 250);
+.barra-nav{
+    background: linear-gradient(#E1BEE7,#7B1FA2);
+}
+
+.bg-footer{
     
-   
-}
-
-input{
-	
-    /*Margenes para los input
-	*/
-	margin-bottom: 20px;
-}
-
-#logo{
-	height: 120px;
-	width: 150px;
-
-
-}
-.fuente-barra{
-	font-family: alex_brushregular;
-	font-size:50px;
-}
-@font-face {
-    font-family: 'alex_brushregular';
-    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
-         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-fieldset{
-	background-color:#9c27b0;
 }
