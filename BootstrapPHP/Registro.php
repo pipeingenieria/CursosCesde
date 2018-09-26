@@ -15,10 +15,7 @@ and open the template in the editor.
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">
-                    <img src="foto.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                    Bootstrap
-                </a>
+                <a class="navbar-brand" href="#">LOGO</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -37,7 +34,7 @@ and open the template in the editor.
                       <a class="nav-link" href="#">Inicio de Sesion</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="Registro.php">Registro</a>
+                        <a class="nav-link" href="Registro.php">Registro</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -53,56 +50,7 @@ and open the template in the editor.
                 </div>
               </nav>
         </header>
-        <section>
-            <div class="container">
-                <form>
-                    <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputEmail4">Nombre</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
-                      </div>
-                      <div class="form-group col-md-6">
-                        <label for="inputPassword4">Cedula</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password" required>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputAddress">Direccion</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputAddress2">Ciudad</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
-                    </div>
-                    <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputCity">Barrio</label>
-                        <input type="text" class="form-control" id="inputCity" required>
-                      </div>
-                      <div class="form-group col-md-4">
-                        <label for="inputState">State</label>
-                        <select id="inputState" class="form-control">
-                          <option selected>Choose...</option>
-                          <option>...</option>
-                        </select>
-                      </div>
-                      <div class="form-group col-md-2">
-                        <label for="inputZip">Zip</label>
-                        <input type="text" class="form-control" id="inputZip">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                          Check me out
-                        </label>
-                      </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
-                </form>
-            </div>
-        </section>
+       
         <?php
         // put your code here
         ?>
@@ -118,3 +66,5 @@ and open the template in the editor.
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </body>
 </html>
+
+
