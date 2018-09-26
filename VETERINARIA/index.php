@@ -55,7 +55,7 @@ and open the template in the editor.
         </header>
         <section>
             <div class="container">
-                <form>
+                <form class="my-5" action="ValidarRegistro.php" method="POST">
                     <div class="form-row">
                       <div class="form-group col-md-6">
                         <label for="inputEmail4">Nombre</label>
