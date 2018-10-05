@@ -25,7 +25,7 @@ if(isset($_POST['nombre']) && !empty($_POST['nombre']) &&
     // Si entramos es que todo se ha realizado correctamente
     // Con esta sentencia SQL insertaremos los datos en la base de datos
 
-        $query = "INSERT INTO usuario (nombre, apellido, pais, departamento, ciudad, telefono, email) VALUES
+        $query = "INSERT INTO usuario (Nombre, Apellidos, Pais, Departamento, Ciudad, Telefono, Email) VALUES
                                 ('".$_POST['nombre']."',
                                 '".$_POST['apellido']."',
                                 '".$_POST['pais']."',
@@ -55,7 +55,7 @@ if(isset($_POST['nombre']) && !empty($_POST['nombre']) &&
         
            echo ("<script LANGUAGE='JavaScript'>
                 window.alert('El usuario ha sido guardado correctamente');
-                window.location.href='Registro.php';
+                window.location.href='index.php';
                 </script>");
         
                 //header('Location:Registro.php');
