@@ -28,13 +28,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                  <img class="d-block img-fluid" src="img/foto2.jpg" alt="First slide" width="900" height="200">
+                  <img class="d-block img-fluid" src="<?php echo base_url();?>/assets/img/foto2.jpg" alt="First slide" width="900" height="200">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/foto4.jpg" alt="Second slide" width="900" height="200">
+                <img class="d-block img-fluid" src="<?php echo base_url();?>/assets/img/foto4.jpg" alt="Second slide" width="900" height="200">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/foto5.jpg" alt="Third slide" width="900" height="200">
+                <img class="d-block img-fluid" src="<?php echo base_url();?>/assets/img/foto5.jpg" alt="Third slide" width="900" height="200">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -51,7 +51,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/foto1.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="<?php echo base_url();?>/assets/img/foto1.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#">Primer Item</a>
@@ -67,7 +67,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/foto3.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="<?php echo base_url();?>/assets/img/foto3.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#">Segundo Item</a>
@@ -83,7 +83,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/foto6.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="<?php echo base_url();?>/assets/img/foto6.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#">Tercer Item</a>
@@ -99,7 +99,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/foto7.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="<?php echo base_url();?>/assets/img/foto7.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#">Cuarto Item</a>
@@ -115,7 +115,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/foto8.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="<?php echo base_url();?>/assets/img/foto8.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#">Quimto Item</a>
@@ -131,7 +131,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/foto9.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="<?php echo base_url();?>/assets/img/foto9.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
                     <a href="#">Sexto Item</a>
@@ -156,4 +156,4 @@
 
     </div>
     <!-- /.container -->
-        </section>
+</section>

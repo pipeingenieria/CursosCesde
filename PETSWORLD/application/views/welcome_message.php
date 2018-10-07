@@ -92,3 +92,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 </body>
 </html>
+<?php
+header('Location: index.php/InicioController/inicio');
+?>
