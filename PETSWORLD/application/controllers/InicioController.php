@@ -5,7 +5,7 @@ class InicioController extends CI_Controller {
 
 	
 	
-        public function inicio()
+        public function index()
 	{
                 //Se carga el Header
                 $this->load->view('Layout/HeaderView');
@@ -31,6 +31,9 @@ class InicioController extends CI_Controller {
 		$this->load->view('RegistroView');
                 //Se carga el Footer
                 $this->load->view('Layout/FooterView');
+                //$this->load->model("RegistroModel");
+                $this->RegistroModel->insertar();
+                echo "usuarios registrados";
 	}
         public function inicioSesion()
 	{
