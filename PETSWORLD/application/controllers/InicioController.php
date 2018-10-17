@@ -32,8 +32,8 @@ class InicioController extends CI_Controller {
                 //Se carga el Footer
                 $this->load->view('Layout/FooterView');
                 //$this->load->model("RegistroModel");
-                $this->RegistroModel->insertar();
-                echo "usuarios registrados";
+                //$this->RegistroModel->insertar();
+                //echo "usuarios registrados";
 	}
         public function inicioSesion()
 	{

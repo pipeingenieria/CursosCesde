@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/estilos2.css">
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/estilo.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/js/validacion.js">
         
     </head>
     <script>

@@ -3,7 +3,7 @@
                 <div class="container-fluid img-form">
                     <img class="img-responsive imagen-form" src="img/foto2.png" alt="" width="120" height="120">
                 </div>
-                <form class="my-5" action="InsertaRegistro.php" method="POST">
+                <form class="my-5" action="InsertaRegistro.php" method="POST" onsubmit=" return DatosUser();">
                     <div class="row">
                         <div class="col">
                             <div class="form-group">

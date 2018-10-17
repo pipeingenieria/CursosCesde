@@ -6,10 +6,10 @@
  * and open the template in the editor.
  */
 class RegistroModel extends CI_Controller{
-    public function insertar(){
+    public function insertar($datos){
         $usuario = array(
-            "Nombre" => "Andres",
-            "Apellido" => "Hernandez",
+            "Nombre" => $datos['nombre'],
+            "Apellido" => $datos['apellido'],
             );
         $this->db->insert("usuarios",$usuario);
     }
